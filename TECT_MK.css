@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&family=Lato:wght@300;400;700&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+
 body{
     width: 1920px;
     position: relative;
@@ -18,30 +21,36 @@ nav{
 }
 
 .nav-1-box-1{
-    font-family: 'Source Sans Pro', sans-serif;
     height: 75px;
     display: flex;
     align-items: center;
 }
 
-.nav-1-box-1 p select{
-    font-size: 16px;
-}
 
 .nav-1-box-1 p{
-    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
     margin: 0 13px 0 0;
     
 }
 
 select{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.6);
     border: none;
-    width: 65px;
+    width: 70px;
     height: 20px;
     appearance: none;
     background: url(media/nav-1-box-1/arrow.png);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right top 60%;
     outline: 0;
 }
 
@@ -60,6 +69,14 @@ select{
 .nav-1-box-3{
     font-family: 'Commissioner', sans-serif;
     width: 610px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -107,12 +124,13 @@ select{
 
 .nav-2-box-2 a{
     font-family: 'Commissioner', sans-serif;
+    font-weight: 500;
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.75);
-    height: 20px;
-    text-transform: uppercase;
-    margin: 0 25px;
     line-height: 20px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.75);
+    margin: 0 25px;
     position: relative;
 }
 
@@ -184,8 +202,11 @@ select{
     left: 375px;
 }
 
+
 .content-container-1 h1{
-    font-family: 'Commissioner', sans-serif;
+    font-family:'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 40px;
     line-height: 50px;
     letter-spacing: 0.01em;
@@ -194,6 +215,7 @@ select{
 
 .content-container-1 p{
     font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
@@ -201,9 +223,15 @@ select{
 }
 
 button{
-    font-family: Commissioner, sans-serif;
+    font-family:'Commissioner', sans-serif;
     width: 200px;
     height: 45px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     background: #DEC377;
     border-radius: 2px;
     border: none;
@@ -213,7 +241,6 @@ button{
     justify-content: center;
     text-align: center;
     align-content: center;
-    text-transform: uppercase;
     
     
 }
@@ -245,9 +272,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin: 40px 0px 0px 30px;
-
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
     position: static;
@@ -290,16 +315,17 @@ button{
 .box-2-container-2 p,
 .box-3-container-2 p,
 .box-4-container-2 p{
-    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
     width: 230px;
     height: 50px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
     line-height: 25px;
     text-align: center;
     letter-spacing: 0.02em;
     color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 50px;
 }
 
 /* -----------container-3---------------- */
@@ -330,7 +356,8 @@ button{
 
 .content-container-3-1 h2{
     font-family: 'Commissioner', sans-serif;
-    width: 550px;
+    font-style: normal;
+    font-weight: normal;
     font-size: 28px;
     line-height: 40px;
     letter-spacing: 0.03em;
@@ -340,11 +367,11 @@ button{
 .content-container-3-1 p{
     font-family: 'Lato', sans-serif;
     width: 470px;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
-    color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .img-container-3-1 img{
@@ -390,14 +417,17 @@ button{
 .box-container-3-2 h5{
     max-width: 180px;
     font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     color: rgba(0, 0, 0, 0.9);
     margin: 25px 0 0 40px;
 }
 
-.box-container-3-2 p{
-    font-family: Lato, sans-serif;
+.box-container-3-2 a{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
@@ -460,12 +490,12 @@ button{
     margin: 20px 0 0 15px;
 }
 
-.container-3-2-bottom-content-left{
+.container-3-2-bottom-content-left h2{
     width: 370px;
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 40px;
     letter-spacing: 0.03em;
     color: rgba(0, 0, 0, 0.9);
@@ -473,12 +503,12 @@ button{
 
 .container-3-2-bottom-content-right{
     width: 770px;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
-    color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 /* ------------container-3-3------------ */
@@ -535,9 +565,11 @@ button{
 }
 
 .container-4 h2{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 28px;
-    line-height: 40px;
+    line-height: 40px; 
     letter-spacing: 0.03em;
     color: rgba(0, 0, 0, 0.9);
 }
@@ -565,10 +597,13 @@ button{
 }
 
 .container-4-1-box-1 p, .container-4-1-box-2 p{
-    font-family: Lato, sans-serif;
-    font-size: 15px;
-    line-height: 25px;
-    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;  
+    letter-spacing: 0.01em; 
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .container-4-1-box-1 h3, .container-4-1-box-2 h3{
@@ -582,12 +617,13 @@ button{
 
 .container-4-1-box-1 a, .container-4-1-box-2 a{
     font-family: Lato, sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 20px; 
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 /* ---------------container-4-1-buttons--------------- */
@@ -641,12 +677,12 @@ button{
 
 .container-4-2-box-1 p{
     width: 670px;
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
-    color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .container-4-2-box-1 button{
@@ -723,19 +759,21 @@ button{
 }
 
 .container-5-box-1-1 h4, .container-5-box-1-2 h4{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 26px;
     line-height: 45px;
     color: rgba(0, 0, 0, 0.9);
 }
 
 .container-5-box-1-1 p, .container-5-box-1-2 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
-    color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .container-5-box-2{
@@ -751,8 +789,9 @@ button{
 }
 
 .container-5-box-2 h4{
-    font-family: Commissioner, sans-serif;
-    width: 320px;
+    font-family:' Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 26px;
     line-height: 45px;
     color: rgba(0, 0, 0, 0.9);
@@ -760,13 +799,13 @@ button{
 }
 
 .container-5-box-2 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 720px;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
     color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
     margin-top: 45px;
 }
 
@@ -784,7 +823,9 @@ button{
 }
 
 .container-5-2 h2{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 28px;
     line-height: 40px;
     letter-spacing: 0.03em;
@@ -817,22 +858,25 @@ button{
     margin-top: 30px;
 }
 
-.container-5-2 p{
-    font-family: Lato, sans-serif;
+.container-5-2 a{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
     position: absolute;
     right: 20px;
     bottom: 20px;
-    opacity: 0.6;
 }
 
 .container-5-2 h5{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
     max-width: 520px;
+    font-style: normal;
+    font-weight: normal;
     font-size: 20px;
     line-height: 30px;
     color: rgba(0, 0, 0, 0.9);
@@ -931,13 +975,13 @@ button{
 }
 
 .container-5-3 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 770px;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
     color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
 }
 
 .container-5-3 button{
@@ -969,20 +1013,22 @@ hr{
 }
 
 .container-6-box-1 h2, .container-6-box-2 h2{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 28px;
-    line-height: 40px;
+    line-height: 40px; 
     letter-spacing: 0.03em;
     color: rgba(0, 0, 0, 0.9);
 }
 
 .container-6-box-1-1 p, .container-6-box-2-1 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
-    color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .container-6-box-1-2, .container-6-box-2-2{
@@ -990,8 +1036,9 @@ hr{
 }
 
 .container-6-box-1-2 p, .container-6-box-2-2 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     max-width: 375px;
+    font-style: normal;
     font-weight: 600;
     font-size: 17px;
     line-height: 30px;
@@ -1049,9 +1096,11 @@ hr{
 }
 
 .container-7 > h2{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 28px;
-    line-height: 40px;
+    line-height: 40px; 
     letter-spacing: 0.03em;
     color: rgba(0, 0, 0, 0.9);
     position: relative;
@@ -1123,7 +1172,9 @@ hr{
 .container-7-box-1-2 p,
 .container-7-box-1-3 p,
 .container-7-box-1-4 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
     line-height: 25px;
     text-align: center;
@@ -1147,13 +1198,13 @@ hr{
 }
 
 .container-7-box-2 p{
+    font-family: 'Lato', sans-serif;
     width: 750px;
-    font-family: Lato, sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
-    color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .triangle-topright{
@@ -1177,7 +1228,9 @@ hr{
 }
 
 .container-7-box-3 h2{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 28px;
     line-height: 40px;
     letter-spacing: 0.03em;
@@ -1185,10 +1238,12 @@ hr{
 }
 
 .container-7-box-3-1-1 p, .container-7-box-3-1-2 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     max-width: 400px;
+    font-style: normal;
+    font-weight: normal;
     font-size: 15px;
-    line-height: 25px;
+    line-height: 25px;   
     display: flex;
     align-items: center;
     color: rgba(0, 0, 0, 0.8);
@@ -1234,14 +1289,14 @@ hr{
 }
 
 .container-7-box-3-1 > p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     max-width: 480px;
+    font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 25px;
     letter-spacing: 0.01em;
-    color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .container-7-box-3-2{
@@ -1256,10 +1311,12 @@ hr{
 
 .container-7-box-3-2 p{
     max-width: 470px;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 13px;
     line-height: 20px;
+    letter-spacing: 0.01em;
     color: rgba(0, 0, 0, 0.5);
     position: relative;
     left: 50px;
@@ -1284,9 +1341,12 @@ hr{
 
 .container-7-box-3-2 input::placeholder{
     font-family: Lato, sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
+    color: rgba(0, 0, 0, 0.8);
+
     display: flex;
     align-items: center;
     color: rgba(0, 0, 0, 0.5);
@@ -1311,22 +1371,22 @@ hr{
 }
 
 .container-7-box-4 h2{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 28px;
-    line-height: 40px;
+    line-height: 40px;  
     letter-spacing: 0.03em;
-    color: rgba(0, 0, 0, 0.9);
-
 }
 
 .container-7-box-4 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 15px;
     line-height: 25px;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.6);
     margin: 20px 0;
-    opacity: 0.6;
 }
 
 /* ------------container-7-box-5---------- */
@@ -1362,12 +1422,12 @@ hr{
 }
 
 .container-7-box-5-content-1 span{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 13px;
     line-height: 20px;
-    color: rgba(0, 0, 0, 0.5);
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .container-7-box-5-content-1-images{
@@ -1419,7 +1479,9 @@ hr{
 
 .container-7-box-5-header-2 p,
 .container-7-box-5-header-3 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 15px;
     line-height: 25px;
     text-transform: uppercase;
@@ -1446,7 +1508,7 @@ hr{
 }
 
 .city{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
     width: 200px;
     font-style: normal;
     font-weight: normal;
@@ -1468,13 +1530,13 @@ hr{
 }
 
 .contacts-location{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
     width: 200px;
+    font-style: normal;
     font-weight: 300;
     font-size: 13px;
     line-height: 20px;
-    color: rgba(0, 0, 0, 0.8);
-    opacity: 0.6;
+    color: rgba(0, 0, 0, 0.5);
     margin-top: -1em;
 }
 
@@ -1484,7 +1546,8 @@ hr{
 
 
 .address{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
@@ -1494,7 +1557,9 @@ hr{
 }
 
 .email{
-    font-family: Commissioner, sans-serif;
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: normal;
     font-size: 13px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.8);
@@ -1528,10 +1593,11 @@ hr{
 }
 
 .container-8 p{
-    font-family: Lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
     font-weight: 300;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 0.02em;
-    color: rgba(0, 0, 0, 0.8)
+    color: rgba(0, 0, 0, 0.6);
 }
