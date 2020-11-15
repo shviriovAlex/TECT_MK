@@ -1,53 +1,53 @@
 $(document).ready(function(){
     $('.next').click(function(){
-        var firstImage = $('.img.first');
-        var firstImageIndex = $('.img.first').index();
-        var nextImageIndex = firstImageIndex + 1;
+        var activeImage = $('.img.active');
+        var activeImageIndex = $('.img.active').index();
+        var nextImageIndex = activeImageIndex + 1;
         var nextImage = $('.img').eq(nextImageIndex);
-        firstImage.fadeOut(1000);
-        firstImage.removeClass('first');
+        activeImage.fadeOut(1000);
+        activeImage.removeClass('active');
 
         if(nextImageIndex == ($('.img:last').index()+1)){
             $('.img').eq(0).fadeIn(1000);
-            $('.img').eq(0).addClass('first');
+            $('.img').eq(0).addClass('active');
         } else {
             nextImage.fadeIn(1000);
-            nextImage.addClass('first');
+            nextImage.addClass('active');
         }
     });
     $('.prev').click(function(){
-        var firstImage = $('.img.first');
-        var firstImageIndex = $('.img.first').index();
-        var prevImageIndex = firstImageIndex - 1;
+        var activeImage = $('.img.active');
+        var activeImageIndex = $('.img.active').index();
+        var prevImageIndex = activeImageIndex - 1;
         var prevImage = $('.img').eq(prevImageIndex);
 
-        firstImage.fadeOut(1000);
-        firstImage.removeClass('first');
+        activeImage.fadeOut(1000);
+        activeImage.removeClass('active');
         prevImage.fadeIn(1000);
-        prevImage.addClass('first');
+        prevImage.addClass('active');
     });
 
-    $('.next-container-3').click(function(){
-        var currentImage = $('.img-container-3.current');
-        var currentImageIndex = $('.img-container-3.current').index();
+    $('.next-section-3').click(function(){
+        var currentImage = $('.img-section-3.current');
+        var currentImageIndex = $('.img-section-3.current').index();
         var nextImageIndex = currentImageIndex + 1;
-        var nextImage = $('.img-container-3').eq(nextImageIndex);
+        var nextImage = $('.img-section-3').eq(nextImageIndex);
         currentImage.fadeOut(1000);
         currentImage.removeClass('current');
 
-        if(nextImageIndex == ($('.img-container-3:last').index()+1)){
-            $('.img-container-3').eq(0).fadeIn(1000);
-            $('.img-container-3').eq(0).addClass('current');
+        if(nextImageIndex == ($('.img-section-3:last').index()+1)){
+            $('.img-section-3').eq(0).fadeIn(1000);
+            $('.img-section-3').eq(0).addClass('current');
         } else {
             nextImage.fadeIn(1000);
             nextImage.addClass('current');
         }
     });
-    $('.prev-container-3').click(function(){
-        var currentImage = $('.img-container-3.current');
-        var currentImageIndex = $('.img-container-3.current').index();
+    $('.prev-section-3').click(function(){
+        var currentImage = $('.img-section-3.current');
+        var currentImageIndex = $('.img-section-3.current').index();
         var prevImageIndex = currentImageIndex - 1;
-        var prevImage = $('.img-container-3').eq(prevImageIndex);
+        var prevImage = $('.img-section-3').eq(prevImageIndex);
 
         currentImage.fadeOut(1000);
         currentImage.removeClass('current');
@@ -55,7 +55,7 @@ $(document).ready(function(){
         prevImage.addClass('current');
     });
 
-    $('.next-container-4').click(function(){
+    $('.next-section-4').click(function(){
         var currentButton = $('.three-button.now');
         var currentButtonIndex = $('.three-button.now').index();
         var nextButtonIndex = currentButtonIndex + 1;
@@ -67,7 +67,7 @@ $(document).ready(function(){
             nextButton.addClass('now');
         }
      });
-    $('.prev-container-4').click(function(){
+    $('.prev-section-4').click(function(){
         var currentButton = $('.three-button.now');
         var currentButtonIndex = $('.three-button.now').index();
         var prevButtonIndex = currentButtonIndex - 1;
